@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicar partido</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+    <div class="container sinMargen" bis_skin_checked="1">
+        <div class="row">
+            <div class="col-sm-2 verde sinMargen">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="streambe_isologotipo_vector.svg" alt="Logo" width="100%" height="24"
+                                class="d-inline-block align-text-top">
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-sm-6 verde sinMargen">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html">Perfil</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse sinMargen" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <!-- <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Notificaciones</a>
+                      </li> -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Canchas
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"></a></li>
+                                        <li><a class="dropdown-item" href="index2.html">Futbol 5</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="index5.html">Futbol 8</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="index6.html">Futbol 11</a></li>
+                                        <!-- <li>
+                                            <hr class="dropdown-divider">
+                                        </li> -->
+                                        <!-- <li><a class="dropdown-item" href="index5.html" aria-disabled="">Otras</a></li> -->
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Partidos
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Publicar partido</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Buscar partido</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Foro</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index3.html">Quienes somos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index4.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-sm-4 verde sinMargen">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><i class="fa fa-envelope"
+                                aria-hidden="true">ysifaltauno@gmail.com</i>
+                        </a>
+                        <a class="navbar-brand" href="#"><i class="fa fa-whatsapp" aria-hidden="true">Escribinos</i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="px-4 py-5 my-5 text-center fondo parte">
+        <h1 class="display-5 fw-bold text-body-emphasis">Publicar partido</h1>
+        <div class="col-lg-6 mx-auto">
+            <div id="form">
+                <form action="https://formspree.io/f/xlekygev" method="post">
+                    <section>
+                        <label for="lugar">Localidad:
+                            <select name="lugar" id="lugar">
+                                <option>Cordoba</option>
+                                <option>Coronel Suarez</option>
+                                <option>La Costa</option>
+
+                        </label>
+                        </select>
+                    </section>
+                    <section>
+                        <label for="jugadores">Futbol:
+                            <select name="jugadores" id="jugadores">
+                                <option>5</option>
+                                <option>8</option>
+                                <option>11</option>
+                        </label>
+                        </select>
+                    </section>
+                    <section>
+                        <label for="tipo">Estilo:
+                            <select name="tipo" id="tipo">
+                                <option>Masculino</option>
+                                <option>Femenino</option>
+                                <option>Mixto</option>
+                        </label>
+                        </select>
+                    </section>
+                    <p>
+                        Hora del partido: <input type="time" name="horaarribo" min="00:00" max="23:30" step="1800">
+                    </p>
+                    <section>
+                        <label for="posicion">Posición:
+                            <select name="posicion" id="posicion">
+                                <option>Arquero</option>
+                                <option>Defensor</option>
+                                <option>Mediocampo</option>
+                                <option>Delantero</option>
+                                <option>Sin especificar</option>
+                        </label>
+                        </select>
+                    </section>
+                    <section>
+                        <label for="mas-datos">
+                            <p>Detalles</p>
+                            <textarea id="mas-datos" placeholder="Agregue aquí su comentario"></textarea>
+                        </label>
+                    </section>
+                    <section id="tyc">
+
+                        <input title="botonEnviar" alt="botonEnviar" class="submit" src="images/futbol-americano.png"
+                            type="image" />
+                    </section>
+                </form>
+            </div>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <!-- <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button> -->
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

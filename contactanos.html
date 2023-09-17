@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="/script/script.js"></script>
+</head>
+
+<body>
+  <header> <!-- ACA EMPIEZA LA BARRA -->
+    <nav class="navbar bg-body-tertiary  navbarr">
+
+      <div class="container-fluid navbarr">
+
+
+        <a class="navbar-brand tipografiabarralogo" href="index.html">¿y si falta uno?</a>
+
+        <button class="navbar-toggler botonstyle" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end recuadrodesplegable filtro" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+
+
+          <div class="offcanvas-body ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+
+              <li class="nav-item ">
+                <a class="nav-link active pestañasnavbar separacionunica" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item pestañas">
+                <a class="nav-link pestañasnavbar" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Futbol 5
+                </a>
+                <ul class="dropdown-menu listadeopciones">
+                  <li><a class="dropdown-item opcionpestaña" href="index2.html">tigre,bs,as.</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index2.html">la costa, partido</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index2.html">otra ubicacion</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Futbol 8
+                </a>
+                <ul class="dropdown-menu listadeopciones">
+                  <li><a class="dropdown-item opcionpestaña" href="index5.html">tigre,bs,as.</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index5.html">la costa, partido</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index5.html">otra ubicacion</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Futbol 11
+                </a>
+
+                <ul class="dropdown-menu listadeopciones">
+                  <li><a class="dropdown-item opcionpestaña" href="index6.html">tigre,bs,as.</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index6.html">la costa, partido</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index6.html">otra ubicacion</a></li>
+                </ul>
+              </li>
+
+            </ul>
+
+            <img class="logo-style" src="./images/Logo_.png cortado.png" alt="">
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <!-- ACA TERMINA LA BARRA -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- acá va el logo de whatsapp flotante-->
+      <div class="col-12 sm-9">
+        <a href="https://facebook.com/" class="fa fa-whatsapp" id="whatsapp"></a>
+        <!-- acá termina el logo de whatsapp flotante-->
+        <!-- acá empíeza el form -->
+        <div class="mb-3 form">
+          <h1>Contactanos:</h1>
+          <form action="https://getform.io/f/bc22956a-bc95-4b2a-bdf9-668363a1e8e0" method="post"
+            enctype="multipart/form-data" name="formulario" class="cuerpo-formulario">
+            <div>
+            <label for="name" class="form-label">Nombre:<input type="text" name="nombre" id="name" placeholder="Nombre"
+                required class="form-control"></label>
+              </div>
+              <div>
+            <label class="form-label">Apellido: <input type="text" name="apellido" placeholder="Apellido" required
+                class="form-control"></label>
+              </div>
+              <div>
+            <label class="form-label">Email:<input type="email" name="mail" placeholder="Ingrese su mail" required
+                class="form-control"></label>
+              </div>
+              <div>
+            <label class="form-label">Telefono<input type="telNo" class="number form-control" name="tel"
+                placeholder="N° de telefono (sin 0 ni 15)" maxlength="10" required></label>
+              </div>
+            <section>
+              <label for="motivo" class="form-label">Motivo:
+                <select name="motivo" class="form-control">
+                  <option>Pedir cotización</option>
+                  <option>Mas información</option>
+                  <option>Duda/consulta</option>
+                  <option id="agregar" value="agregar-cancha">Agregar cancha</option>
+                </select></label>
+            </section>
+        <label for="agregados" id="agregados">
+          <p>Tu consulta</p>
+          <textarea id="agregado" placeholder="Agregue aquí su comentario" class="form-control"></textarea>
+        </label>
+        </label>
+        <input title="botonEnviar" alt="botonEnviar" id="primer-submit" class="submit" src="images/logoclickpelota.png" type="image" />
+        </section>
+      <!-- acá estoy poniendo la seccion que debería aparecer cuando eligen agregar cancha -->
+      <div class=" d-none" id="formulario-oculto">
+        <h4>Datos del complejo:</h4>
+        <div>
+        <label for="name" class="form-label">Nombre del lugar:<input type="text" name="nombre-lugar" id="name"
+            placeholder="Complejo" required class="form-control"></label>
+          </div>
+        <section>
+          <label for="localidad" class="form-label">Localidad:
+            <select name="localidad" class="form-control">
+              <option>La Costa</option>
+              <option>Tigre</option>
+            </select></label>
+          </section>
+        <div>
+        <label class="form-label">Calle y N°<input type="adress" name="calle" placeholder="Calle y N°" required
+            class="form-control"></label>
+          </div>
+          <div>
+        <label class="form-label">Telefono de la cancha<input type="telNo" class="form-control" name="tel-cancha"
+            placeholder="N° de telefono (sin 0 ni 15)" maxlength="10" required></label>
+          </div>
+          <div class="tipo-de-cancha">
+            <h4>Tipo/s de cancha:</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="futbol-5" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Futbol 5
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="futbol-8" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Futbol 8
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="futbol-11" id="flexCheckChecked" checked>
+              <label class="form-check-label" for="flexCheckChecked">
+                Fútbol 11
+              </label>
+            </div>
+        </div>
+            </section>
+        <section>
+          <label for="agregados">
+            <h4>¿Algún dato extra?</h4>
+            <textarea id="agregados" placeholder="Agregue aquí su comentario" class="form-control"></textarea>
+          </label>
+          <input type="file" name="attachment" accept="image/png, image/jpeg" multiple>
+        </section>
+        <section id="tyc">
+          <label><a href="index8.html" target="_blank">¿Aceptas los terminos y
+              condiciones?</a>
+            <input type="checkbox" name="tyc" required>
+          </label>
+          <input title="botonEnviar" alt="botonEnviar" class="submit" src="images/logoclickpelota.png" type="image" />
+        </section>
+      </div>
+      </form>
+        </div>
+
+    </div>
+<!-- fin del form oculto -->
+  </div>
+
+    <div class="col-12 sm-9" style="border-style: solid; border-color: rgb(150, 69, 69);">
+    </div>
+    <div class="col-12 sm-9" style="border-style: solid; border-color: rgb(178, 189, 25);">
+      </div>
+    <div class="col-12 sm-9" style="border-style: solid; border-color: rgb(58, 76, 238);">
+    </div>
+    <div class="col-12 sm-9">
+      <div id="carouselExampleSlidesOnly" class="carousel slide carousel-publicidad" data-bs-ride="carousel">
+                  <div class="carousel-inner" style="overflow: auto;">
+            <div class="carousel-item publicidad active" style="display:flex;justify-content: space-evenly;" >
+              <img class="medida100 d-block w-100 imagen-publicidad" src="images/Nike-Logo-200x200.png">
+                <img class="medida100 d-block w-100 imagen-publicidad"  src="images/puma-logo-black-symbol-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg">
+                <img class="medida100 d-block w-100 imagen-publicidad"  src="images/Nike-Logo-200x200.png">
+                <img class="medida100 d-block w-100 imagen-publicidad"  src="images/puma-logo-black-symbol-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg">
+                <img class="medida100 d-block w-100 imagen-publicidad"  src="images/Nike-Logo-200x200.png">
+                <img class="medida100 d-block w-100 imagen-publicidad"  src="images/puma-logo-black-symbol-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg">
+                <img class="medida100 d-block w-100 imagen-publicidad"  src="images/Nike-Logo-200x200.png">
+                <img class="medida100 d-block w-100 imagen-publicidad"  src="images/puma-logo-black-symbol-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg">
+            </div>
+           </div>
+        </div>
+</div>
+
+    <div class="col-12 sm-9"></div>
+    <footer class="pie-de-pagina flex-wrap" style="text-align:center">
+      <div class="col-12 sm-9 pie-de-pagina">
+        <div class="centrar">
+          <h1>Redes:</h1>
+          <h1>
+          <a href="https://facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com//" rel="noreferrer" class="fa fa-instagram"></a>
+          <a href="https://github.com/" rel="noreferrer" class="fa fa-github"></a>
+        </h1>
+        </div>
+        <ul class="nav col-md-12 col-sm-9 justify-content-center">
+          <h5><li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li></h5>
+          <h5><li class="nav-item"><a href="index2.html" class="nav-link px-2 text-muted">Cancha futbol 5</a></li></h5>
+          <h5><li class="nav-item"><a href="index3.html" class="nav-link px-2 text-muted">Canchas futbol 8</a></li></h5>
+          <h5><li class="nav-item"><a href="index4.html" class="nav-link px-2 text-muted">Canchas futbol 11</a></li></h5>
+          <h5><li class="nav-item"><a href="index5.html" class="nav-link px-2 text-muted">Sobre nosotros</a></li></h5>
+          <h5><li class="nav-item"><a href="index5.html" class="nav-link px-2 text-muted">Contacto</a></li></h5>
+       
+        </ul>
+        <!-- <p class="col-md-12 mb-0 text-muted"style="text-align:center" >© 2021 Company, Inc</p> -->
+   
+
+
+      <p class="col-md-12 mb-0 text-muted">© 2023 YsiFaltaUno</p>
+    </footer>
+  </div>
+  </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <script src="/script/script.js"></script>
+  </body>
+
+</html>
+
+
