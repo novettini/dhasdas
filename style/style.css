@@ -11,145 +11,15 @@ body {
     /* background-attachment: fixed;
 
      overflow: hidden; */
-     
- }
- /*
-.sinMargen {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0%;
-}
+      }
 
-.optimizacion {
-    max-width: -webkit-fill-available;
-}
-
-#usuario {
-    color: #515151;
-}
-
-.seccion {
-    padding-top: 10%;
-    align-items: center;
-}
-
-.cuadrado {
-    justify-content: center;
-}
-
-u .flecha {
-    font-size: -webkit-xxx-large !important;
-}
-
-
-.optimizacio {
-    max-width: 25%;
-    max-height: 25%;
-}
-
-.center {
-    text-align: center;
-    align-items: center;
-}
-
-.flex-column {
-    max-width: 15%;
-    position: sticky;
-    padding-left: 2%;
-    text-align: center;
-}
-
-.fotoUsuario {
-    max-width: 100%;
-}
-
-.carousel-caption,
-h5 p {
-    color: white;
-}
-
-.noPadding {
-    padding-top: 2%;
-}
-
-li,
-.navbar,
-.color {
-    background-color: white !important;
-    font-family: "noni";
-    font-size: large;
-}
-
-header {
-    color: #74A1D1;
-    background-color: white;
-    margin-top: 2%;
-    font-weight: bold;
-}
-
-input,
-select {
-    display: block;
-    color: rgb(72, 12, 46);
-    margin: auto;
-}
-*/
-
-/*
-#eleccion {
-    display: inline;
-}
- */
+      
 .parte {
     /* max-width: 50%; */
     margin-left: auto;
     margin-right: auto;
 }
-/*
-section {
-    margin-bottom: 2%;
-}
 
-#action,
-.tp {
-    display: grid;
-    color: black;
-    margin-top: 1%;
-    margin-bottom: 2%
-   }
-*/  
-/* 
-
-select {
-    background-color: white;
-}
-
-option {
-    background-color: rgb(255, 206, 80);
-}
-
-
-#fdn {
-    margin-left: auto;
-    margin-right: auto;
-} */
-/* .fixed-bottom{
-    height: 15%;
-    background-color: aquamarine;
-} */
-/* .navbar{
-    background-color: aquamarine !important;
-} */
-/* .fixed-top{
-    height: 15%;
-    background-color: aquamarine;
-} */
-/* .inicio{
-    padding-top: 70px;
-} */
-/* .separacion-abajo{
-    padding-bottom: 20%;
-} */
 .centrar{
     margin: auto;
     text-align: center;
@@ -199,15 +69,7 @@ textarea{
 
 
 }
-/* esto hace que el form no se salga del div, y lo encolumna */
- /* form{
-    width: 70%;
-    display: inline-flex;
-    flex-direction: column;
-    text-align: center;
-    backdrop-filter: blur(95%);
-    background-color: rgba(0, 0, 0, 0.404);
-}  */
+
 .form{
     width: 60%;
     display: inline-flex;
@@ -247,6 +109,7 @@ textarea{
 
 /* clases hechas por luca */
 .bg-body-tertiary{
+    
     width: 100%;
     background-color: rgba(10, 2, 2, 0.822) !important ;
     border: double 4px rgba(231, 180, 180, 0.349);
@@ -254,11 +117,15 @@ textarea{
 }
 
 .navbarr{
+    
     background-color: rgba(36, 33, 33, 0.377);
     border-radius: 10px;
-    width: 100%;
+    width: 99%;
     margin: auto;
-    }
+    
+
+    
+}
 
 .tipografiabarralogo {
     font-family: monospace;
@@ -281,7 +148,7 @@ textarea{
 
 
 .botonstyle {
-    width: 5%;
+    width: 4%;
     height: 2%;
     background-color: rgba(131, 230, 209, 0.637);
 }
@@ -300,10 +167,15 @@ textarea{
     -webkit-backdrop-filter: blur(15px);
      backdrop-filter: blur(15px);
      background-color: rgba(0, 0, 0, 0.404);
-     
-     
-    
+}
 
+.pestañasnavbar {
+    margin-bottom: 3%;
+    color: rgb(255, 255, 255)!important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:larger;
+
+    
 }
 
 .pestañasnavbar {
@@ -318,8 +190,7 @@ textarea{
 .listadeopciones {
 
     margin: auto;
-    
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(48, 39, 10, 0.301);
 }
 
 .listadeopciones :hover {
@@ -391,4 +262,132 @@ flex-direction: column;
 
 .card{
     max-width: 50%;
+}
+/* sobre nosotros */
+
+
+
+
+#primer-recuadro {
+    margin-top: 10%;
+    
+}
+
+.recuadro{
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: center;
+    background-color: rgba(34, 28, 28, 0.644);
+    width: 50%;
+    border: 5px;
+    border-style: groove;
+    border-color: rgb(145, 139, 139);
+    border-top-right-radius: 20px;
+    
+    border-top-left-radius: 40px;
+}
+
+@media (max-width: 500px) {
+    .recuadro {max-width:85%} ;
+}
+
+
+.texto-titulo{
+    color: rgba(27, 163, 9, 0.705);
+}
+
+.texto-recuadro{
+    color: white;
+
+}
+
+.click-aca{
+    margin: auto;
+}
+
+.pelota-click {
+    margin-right: 50%;
+    margin-left: 50%;
+    border: 2px;
+    border-color: rgb(116, 139, 10);
+    border-style: solid ;
+    border-radius: 14px;
+    margin-top: 20px;
+    height: 70px;
+    }
+    /* futbol 5 - futbol 8 -futbol 11 */
+
+.tipo-canchas {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-family:monospace;
+    color: rgb(167, 164, 146);
+    border: 2px solid rgb(2, 2, 2);
+    background-color: rgba(247, 247, 253, 0.219);
+    width: 16%;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.canchas{
+    margin: auto;
+    margin-bottom: 3%;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: 4px;
+    border-style:groove ;
+    border-color: rgba(236, 243, 243, 0.473);
+    border-radius: 15px;
+}
+
+.nombres-canchas { 
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size:larger;
+    border: 1px solid white;
+   width: 25%;
+   font-family:monospace;  
+   text-align: center;
+   color: rgb(231, 219, 219);
+
+}
+
+
+.tamaño-carrousel{
+    margin: auto;
+    width: auto;
+    height: auto;
+    
+    
+    /* width: 800px;
+    height: 800px; */
+}
+
+.datos {
+    
+    color: white;
+    margin: auto;
+    
+}
+
+a {
+    color: white;
+}
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.rejunte-datos {
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid rgba(109, 96, 96, 0.575);
+    width: 45%;
+    background-color: rgba(71, 71, 82, 0.13);
+   
+
+
 }
