@@ -1,0 +1,162 @@
+* {
+    font-family: "noni";
+    color: #515151;
+    text-align: center;
+}
+
+body {
+    background-image: url(images/textura-superficie-cesped.jpg);
+}
+
+.sin-margen {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+#usuario {
+    color: #515151;
+}
+
+.seccion {
+    padding-top: 10%;
+    align-items: center;
+}
+
+.cuadrado {
+    justify-content: center;
+}
+
+u .flecha {
+    font-size: -webkit-xxx-large !important;
+}
+
+
+.optimizar-tamaño {
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.carousel-caption,
+h5 p {
+    color: white;
+}
+
+.noPadding {
+    padding-top: 2%;
+}
+
+li,
+.navbar,
+.color {
+    background-color: white !important;
+    font-family: "noni";
+    font-size: large;
+}
+
+header {
+    color: #74A1D1;
+    background-color: white;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+input,
+select {
+    display: block;
+    color: rgb(72, 12, 46);
+    margin: auto;
+}
+
+label,
+label p,
+form,
+form p {
+    color: white;
+}
+
+#eleccion {
+    display: inline;
+}
+
+.parte {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    margin-bottom: 2%;
+}
+
+#action,
+.tp {
+    display: grid;
+    color: black;
+    margin-top: 1%;
+    margin-bottom: 2%
+   }
+
+#form {
+    margin-right: 100%;
+}
+
+#submit {
+    background-color: #74A1D1;
+    color: white;
+    border-radius: 26%;
+}
+
+.fondo {
+    background-color: aliceblue;
+}
+
+#form {
+    width: 100%;
+    background: #feffff;
+    background: -webkit-linear-gradient(to top, #7c9185, #414647, #1b201fa8);
+    background: linear-gradient(to top, #7c9185, #414647, #1b201fa8);
+
+}
+
+select {
+    background-color: white;
+}
+
+option {
+    background-color: rgb(255, 206, 80);
+}
+
+.submit {
+    margin-top: 1%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-bottom: 3%;
+}
+
+#fdn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* acá van los estilos que vamos a usar con los index que no son visibles ahora  } */
+
+.foto-usuario {
+    max-width: 100%;
+}
+
+.flex-column {
+    max-width: 15%;
+    position: sticky;
+    padding-left: 2%;
+    text-align: center;
+}

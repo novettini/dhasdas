@@ -1,0 +1,393 @@
+* {
+    font-family: "noni";
+    color: #515151;
+    text-align: center;
+    box-sizing: border-box;
+}
+body {
+    /* background-image: url("/images/fondo.jpg")!important; */
+    width: auto;
+    background-color: #74A1D1;
+    /* background-attachment: fixed;
+
+     overflow: hidden; */
+      }
+
+      
+.parte {
+    /* max-width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrar{
+    margin: auto;
+    text-align: center;
+}
+/* clases usadas en el formulario de agregar canchas */
+
+#submit {
+    background-color: #74A1D1;
+    color: white;
+    border-radius: 26%;
+}
+
+.fondo {
+    background-color: aliceblue;
+} 
+
+.submit {
+    margin-top: 1%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-bottom: 3%;
+}
+input,
+select {
+    display:flex;
+    color: rgb(72, 12, 46);
+    margin: auto;
+}
+
+label,
+label p,
+form,
+form p,
+h4 {
+    color: white;
+} 
+
+textarea{
+    max-width: 80%;
+    margin: auto;
+}
+.tipo-de-cancha{
+    display: inline-grid;
+
+
+
+}
+
+.form{
+    width: 60%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    /* -webkit-backdrop-filter: blur(15px); */
+    backdrop-filter: blur(95%);
+    background-color: rgba(0, 0, 0, 0.404);
+    
+}
+.cuerpo-formulario{
+    max-width: 80%;
+    margin: auto;
+}
+
+@media (max-width:805px){
+    .form{
+        width: 80%;
+    }
+}
+
+/* el logo de whatsapp */
+#whatsapp{
+    position: fixed;
+    top:80%;
+    left:80%;
+    font-size:300%;
+    color: green;
+
+}
+.fa{
+    font-size: xx-large;
+    color: blue;
+    }
+/* -- */
+
+
+/* clases hechas por luca */
+.bg-body-tertiary{
+    
+    width: 100%;
+    background-color: rgba(10, 2, 2, 0.822) !important ;
+    border: double 4px rgba(231, 180, 180, 0.349);
+    border-radius: 20px;
+}
+
+.navbarr{
+    
+    background-color: rgba(36, 33, 33, 0.377);
+    border-radius: 10px;
+    width: 99%;
+    margin: auto;
+    
+
+    
+}
+
+.tipografiabarralogo {
+    font-family: monospace;
+    color: rgba(131, 230, 209, 0.637);
+    margin: auto;
+    background-color: rgb(56, 47, 47);
+    
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.logo-style{
+    
+    margin-top: 20%;
+    width: 30%;
+    height: 20%;
+}
+
+
+.botonstyle {
+    width: 4%;
+    height: 2%;
+    background-color: rgba(131, 230, 209, 0.637);
+}
+
+.recuadrodesplegable {
+
+   
+    height: 60%;
+    margin-top: 4%;
+    text-align: center;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    box-shadow: 0 10px 30px #bba7a723;
+
+    /* fondo borroso */
+    -webkit-backdrop-filter: blur(15px);
+     backdrop-filter: blur(15px);
+     background-color: rgba(0, 0, 0, 0.404);
+}
+
+.pestañasnavbar {
+    margin-bottom: 3%;
+    color: rgb(255, 255, 255)!important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:larger;
+
+    
+}
+
+.pestañasnavbar {
+    margin-bottom: 3%;
+    color: rgb(255, 255, 255)!important;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:larger;
+
+    
+}
+
+.listadeopciones {
+
+    margin: auto;
+    background-color: rgba(48, 39, 10, 0.301);
+}
+
+.listadeopciones :hover {
+    color: rgb(21, 199, 21);
+    background-color: rgba(0, 0, 0, 0);
+   
+}
+
+.listadeopciones :active {
+    color: red;
+}
+
+.opcionpestaña {
+    margin-bottom: 2%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+/* clases del footer */
+.pie-de-pagina{
+display: flex;
+flex-direction: column;
+}
+/* clases del footer */
+.pie-de-pagina{
+    background-color: aquamarine !important;
+}
+
+
+/* clases de la publicidad */
+.carousel-publicidad{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.publicidades{
+    padding-top:5%;
+    padding-bottom:5%;
+    max-width: 100%;
+}
+.publicidad{
+    display:flex;
+    max-height: 200px;
+    justify-content: space-evenly;
+}
+#imagen-publicidad{
+    max-width: 70px;
+    max-height:70px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.medida100{
+    max-width: 70px;
+    max-height: 70px;
+}
+.medida200{
+    max-width: 200px;
+    max-height: 200px;
+}
+/* fin clases de publicidad */
+
+
+
+/*clases usadas en los index que no se usan aun*/
+
+.card{
+    max-width: 50%;
+}
+/* sobre nosotros */
+
+
+
+
+#primer-recuadro {
+    margin-top: 10%;
+    
+}
+
+.recuadro{
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: center;
+    background-color: rgba(34, 28, 28, 0.644);
+    width: 50%;
+    border: 5px;
+    border-style: groove;
+    border-color: rgb(145, 139, 139);
+    border-top-right-radius: 20px;
+    
+    border-top-left-radius: 40px;
+}
+
+@media (max-width: 500px) {
+    .recuadro {max-width:85%} ;
+}
+
+
+.texto-titulo{
+    color: rgba(27, 163, 9, 0.705);
+}
+
+.texto-recuadro{
+    color: white;
+
+}
+
+.click-aca{
+    margin: auto;
+}
+
+.pelota-click {
+    margin-right: 50%;
+    margin-left: 50%;
+    border: 2px;
+    border-color: rgb(116, 139, 10);
+    border-style: solid ;
+    border-radius: 14px;
+    margin-top: 20px;
+    height: 70px;
+    }
+    /* futbol 5 - futbol 8 -futbol 11 */
+
+.tipo-canchas {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-family:monospace;
+    color: rgb(167, 164, 146);
+    border: 2px solid rgb(2, 2, 2);
+    background-color: rgba(247, 247, 253, 0.219);
+    width: 16%;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+
+.canchas{
+    margin: auto;
+    margin-bottom: 3%;
+    background-color: rgba(0, 0, 0, 0.863);
+    border: 4px;
+    border-style:groove ;
+    border-color: rgba(236, 243, 243, 0.473);
+    border-radius: 15px;
+}
+
+.nombres-canchas { 
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size:larger;
+    border: 1px solid white;
+   width: 25%;
+   font-family:monospace;  
+   text-align: center;
+   color: rgb(231, 219, 219);
+
+}
+
+
+.tamaño-carrousel{
+    margin: auto;
+    width: auto;
+    height: auto;
+    
+    
+    /* width: 800px;
+    height: 800px; */
+}
+
+.datos {
+    
+    color: white;
+    margin: auto;
+    
+}
+
+a {
+    color: white;
+}
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.rejunte-datos {
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid rgba(109, 96, 96, 0.575);
+    width: 45%;
+    background-color: rgba(71, 71, 82, 0.13);
+   
+
+
+}

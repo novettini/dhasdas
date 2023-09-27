@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="C:\Users\programacion\Desktop\arreglado el problema\tpFinalStreambe\style\style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="script/script.js"></script>
+</head>
+<body>
+  <header> <!-- ACA EMPIEZA LA BARRA -->
+    <nav class="navbar bg-body-tertiary  navbarr">
+
+      <div class="container-fluid navbarr">
+
+
+        <a class="navbar-brand tipografiabarralogo" href="index.html">¿y si falta uno?</a>
+
+        <button class="navbar-toggler botonstyle" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end recuadrodesplegable filtro" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+
+
+          <div class="offcanvas-body ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+
+              <li class="nav-item ">
+                <a class="nav-link active pestañasnavbar separacionunica" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item pestañas">
+                <a class="nav-link pestañasnavbar" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Futbol 5
+                </a>
+                <ul class="dropdown-menu listadeopciones">
+                  <li><a class="dropdown-item opcionpestaña" href="index2.html">tigre,bs,as.</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index2.html">la costa, partido</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index2.html">otra ubicacion</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Futbol 8
+                </a>
+                <ul class="dropdown-menu listadeopciones">
+                  <li><a class="dropdown-item opcionpestaña" href="index5.html">tigre,bs,as.</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index5.html">la costa, partido</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index5.html">otra ubicacion</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Futbol 11
+                </a>
+
+                <ul class="dropdown-menu listadeopciones">
+                  <li><a class="dropdown-item opcionpestaña" href="index6.html">tigre,bs,as.</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index6.html">la costa, partido</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="index6.html">otra ubicacion</a></li>
+                </ul>
+              </li>
+
+            </ul>
+
+            <img class="logo-style" src="./images/Logo_.png cortado.png" alt="">
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <!-- ACA TERMINA LA BARRA -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- acá va el logo de whatsapp flotante-->
+      <div class="col-12 sm-9">
+        <a href="https://facebook.com/" class="fa fa-whatsapp" id="whatsapp"></a>
+      </div>
+        <!-- acá termina el logo de whatsapp flotante-->
+  <!---acá empieza la foto principal con los dropdown-->
+    <div class="col-12 sm-9" style="border-style: solid; border-color: black;">
+        <div class="container" style="background-image: url(https://img.freepik.com/fotos-premium/campo-futbol-vacio_174699-16.jpg?w=1380);padding-bottom: 20%; background-size: cover;">
+            <div style="display: flex; padding-top: 25%; justify-content: space-around;">
+              <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Futbol 5
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">La Costa</a></li>
+                <li><a class="dropdown-item" href="#">Tigre</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <!-- <li><a class="dropdown-item" href="#">Separated link</a></li> -->
+              </ul>
+            </div>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Futbol 8
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">La Costa</a></li>
+              <li><a class="dropdown-item" href="#">Tigre</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <!-- <li><a class="dropdown-item" href="#">Separated link</a></li> -->
+            </ul>
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Futbol 11
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">La Costa</a></li>
+              <li><a class="dropdown-item" href="#">Tigre</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <!-- <li><a class="dropdown-item" href="#">Separated link</a></li> -->
+            </ul>
+          </div>
+            </div>
+          </div>  
+          <!---acá termina la foto principal-->
+
+          <div class="col-12 sm-9" style="border-style: solid; border-color: black;">
+            <div class="container">
+                <div>
+            <h1 >y si falta uno</h1>
+            <img class="medida200" src="C:\Users\Usuario\Desktop\trabajo_fin\Nuevas-canchas-de-futbol-7-y-9-con-cesped-sintetico-de-ultima-generacion-y-gran-calidad.png" style="background-size: cover; max-width: 80%;">
+                </div>
+                <div>
+            <h2 >¿Que hacemos?</h2>
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque excepturi consectetur quidem laudantium ut, quibusdam modi. Delectus maxime ipsam iste at fugit impedit pariatur vero neque laborum. Numquam, ea beatae?</p>
+                <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores exercitationem temporibus beatae eos commodi doloremque laudantium qui ad repellendus porro assumenda, animi dolorem cum tenetur tempora aspernatur officiis quis ratione!</p>
+        </div>
+    </div>
+            </div>
+            <!---acá empieza la publicidad-->
+    <div class="row">
+      <div class="col-12 sm-9">
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-publicidad" data-bs-ride="carousel">
+                    <div class="carousel-inner" style="overflow: auto;">
+              <div class="carousel-item publicidad active" style="display:flex;justify-content: space-evenly;" >
+                <img class="medida100 d-block w-100 imagen-publicidad" src="images/Nike-Logo-200x200.png">
+                  <img class="medida100 d-block w-100 imagen-publicidad"  src="images/puma-logo-black-symbol-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg">
+                  <img class="medida100 d-block w-100 imagen-publicidad"  src="images/Nike-Logo-200x200.png">
+                  <img class="medida100 d-block w-100 imagen-publicidad"  src="images/puma-logo-black-symbol-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg">
+                  <img class="medida100 d-block w-100 imagen-publicidad"  src="images/Nike-Logo-200x200.png">
+                  <img class="medida100 d-block w-100 imagen-publicidad"  src="images/puma-logo-black-symbol-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg">
+                  <img class="medida100 d-block w-100 imagen-publicidad"  src="images/Nike-Logo-200x200.png">
+                  <img class="medida100 d-block w-100 imagen-publicidad"  src="images/puma-logo-black-symbol-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg">
+              </div>
+             </div>
+          </div>
+  </div>
+    </div>
+    <!---acá termina la publicidad-->
+    <!---acá empieza el footer-->
+    <div class="col-12 sm-9"></div>
+    <footer class="pie-de-pagina flex-wrap" style="text-align:center">
+      <div class="col-12 sm-9 pie-de-pagina">
+        <div class="centrar">
+          <h1>Redes:</h1>
+          <h1>
+          <a href="https://facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com//" rel="noreferrer" class="fa fa-instagram"></a>
+          <a href="https://github.com/" rel="noreferrer" class="fa fa-github"></a>
+        </h1>
+        </div>
+        <ul class="nav col-md-12 col-sm-9 justify-content-center">
+          <h5><li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li></h5>
+          <h5><li class="nav-item"><a href="futbol5.html" class="nav-link px-2 text-muted">Cancha futbol 5</a></li></h5>
+          <h5><li class="nav-item"><a href="index3.html" class="nav-link px-2 text-muted">Canchas futbol 8</a></li></h5>
+          <h5><li class="nav-item"><a href="index4.html" class="nav-link px-2 text-muted">Canchas futbol 11</a></li></h5>
+          <h5><li class="nav-item"><a href="sobreNosotros.html" class="nav-link px-2 text-muted">Sobre nosotros</a></li></h5>
+          <h5><li class="nav-item"><a href="contactanos.html" class="nav-link px-2 text-muted">Contacto</a></li></h5>
+       
+        </ul>
+        <!-- <p class="col-md-12 mb-0 text-muted"style="text-align:center" >© 2021 Company, Inc</p> -->
+   
+
+
+      <p class="col-md-12 mb-0 text-muted">© 2023 YsiFaltaUno</p>
+    </footer>
+  </div>
+  </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <script src="/script/script.js"></script>
+  </body>
+</html>
