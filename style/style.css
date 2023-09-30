@@ -5,14 +5,11 @@
     box-sizing: border-box;
 }
 body {
-    /* background-image: url("/images/fondo.jpg")!important; */
+    background-image: url('../images/fondo.jpg')!important;
     width: auto;
     background-color: #74A1D1;
-    /* background-attachment: fixed;
-
-     overflow: hidden; */
+ background-attachment: fixed; 
       }
-
       
 .parte {
     /* max-width: 50%; */
@@ -387,7 +384,12 @@ a {
     border: 2px solid rgba(109, 96, 96, 0.575);
     width: 45%;
     background-color: rgba(71, 71, 82, 0.13);
-   
+ }
 
 
-}
+
+ .regla{
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+ }

@@ -10,94 +10,81 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="script/script.js"></script>
 </head>
-
 <body>
+  <header> <!-- ACA EMPIEZA LA BARRA -->
+    <nav class="navbar bg-body-tertiary  navbarr">
 
-  
+      <div class="container-fluid navbarr">
 
-<nav class="navbar bg-body-tertiary fixed-top navbarr">
 
-  <div class="container-fluid navbarr ">
+        <a class="navbar-brand tipografiabarralogo" href="index.html">¿y si falta uno?</a>
 
-    <!-- <a class="navbar-brand" href="index.html"><img class="logo-style" src="./images/Logo_.png cortado.png" alt=""></a> -->
+        <button class="navbar-toggler botonstyle" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <a class="navbar-brand tipografiabarralogo" href="index.html">¿y si falta uno?</a>
+        <div class="offcanvas offcanvas-end recuadrodesplegable filtro" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
 
-    <button class="navbar-toggler botonstyle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="offcanvas offcanvas-end recuadrodesplegable filtro" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-body ">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
 
-      <!-- <div class="offcanvas-header">
-        <h5 class="offcanvas-title tipografiabarralogo" id="offcanvasNavbarLabel">encuentra tu cancha</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div> -->
+              <li class="nav-item ">
+                <a class="nav-link active pestañasnavbar separacionunica" aria-current="page" href="index.html">Home</a>
+              </li>
 
-      <div class="offcanvas-body " >
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+              <li class="nav-item pestañas">
+                <a class="nav-link pestañasnavbar" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Futbol 5
+                </a>
+                <ul class="dropdown-menu listadeopciones">
+                  <li><a class="dropdown-item opcionpestaña" href="futbol5Tigre.html">tigre,bs,as.</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="futbol8LaCosta.html">la costa, partido</a></li>
+                  <!-- <li><a class="dropdown-item opcionpestaña" href="index2.html">otra ubicacion</a></li> -->
+                </ul>
+              </li>
 
-          <li class="nav-item ">
-            <a class="nav-link active pestañasnavbar separacionunica" aria-current="page" href="index.html">Home</a>
-          </li>
-          
-          <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Futbol 5
-            </a>
-            <ul class="dropdown-menu listadeopciones">
-              <li><a class="dropdown-item opcionpestaña" href="index2.html">tigre,bs,as.</a></li>
-              <li><a class="dropdown-item opcionpestaña" href="index9.html">la costa, partido</a></li>
-              <li><a class="dropdown-item opcionpestaña" href="index2.html">otra ubicacion</a></li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Futbol 8
+                </a>
+                <ul class="dropdown-menu listadeopciones">
+                  <li><a class="dropdown-item opcionpestaña" href="futbol8Tigre.html">tigre,bs,as.</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="futbol8LaCosta.html">la costa, partido</a></li>
+                  <!-- <li><a class="dropdown-item opcionpestaña" href="index5.html">otra ubicacion</a></li> -->
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Futbol 11
+                </a>
+
+                <ul class="dropdown-menu listadeopciones">
+                  <li><a class="dropdown-item opcionpestaña" href="futbol11tigre.html">tigre,bs,as.</a></li>
+                  <li><a class="dropdown-item opcionpestaña" href="Futbol11LaCosta.html">la costa, partido</a></li>
+                  <!-- <li><a class="dropdown-item opcionpestaña" href="index6.html">otra ubicacion</a></li> -->
+                </ul>
+              </li>
+
             </ul>
-          </li>
 
-          <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Futbol 8
-            </a>
-            <ul class="dropdown-menu listadeopciones">
-              <li><a class="dropdown-item opcionpestaña" href="index5.html">tigre,bs,as.</a></li>
-              <li><a class="dropdown-item opcionpestaña" href="index10.html">la costa, partido</a></li>
-              <li><a class="dropdown-item opcionpestaña" href="index5.html">otra ubicacion</a></li>
-            </ul>
-          </li>
+            <img class="logo-style" src="./images/Logo_.png cortado.png" alt="">
 
-          <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle pestañasnavbar" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Futbol 11
-            </a>
-
-            <ul class="dropdown-menu listadeopciones">
-              <li><a class="dropdown-item opcionpestaña" href="index6.html">tigre,bs,as.</a></li>
-              <li><a class="dropdown-item opcionpestaña" href="index11.html">la costa, partido</a></li>
-              <li><a class="dropdown-item opcionpestaña" href="index6.html">otra ubicacion</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item pestañas">
-            <a class="nav-link pestañasnavbar" href="index3.html">Sobre Nosotros</a>
-          </li>
-
-          <li class="nav-item pestañas">
-            <a class="nav-link pestañasnavbar" href="index3.html">Agrega tu cancha</a>
-          </li>
-
-        </ul>
-
-        <img class="logo-style" src="./images/Logo_.png cortado.png" alt="">
-        
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</nav>
-
-
-
-
-
-
-
+    </nav>
+  </header>
+    <!-- ACA TERMINA LA BARRA -->
   <header>
     <h1 class="center tipo-canchas"> Futbol 11 </h1>
     <h2 class="center ubicacion-canchas">La Costa</h2>
@@ -309,8 +296,8 @@
                 <ul class="nav col-md-12 col-sm-9 justify-content-center">
                   <h5><li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li></h5>
                   <h5><li class="nav-item"><a href="futbol5.html" class="nav-link px-2 text-muted">Cancha futbol 5</a></li></h5>
-                  <h5><li class="nav-item"><a href="index3.html" class="nav-link px-2 text-muted">Canchas futbol 8</a></li></h5>
-                  <h5><li class="nav-item"><a href="index4.html" class="nav-link px-2 text-muted">Canchas futbol 11</a></li></h5>
+                  <h5><li class="nav-item"><a href="futbol8.html" class="nav-link px-2 text-muted">Canchas futbol 8</a></li></h5>
+                  <h5><li class="nav-item"><a href="futbol11.html" class="nav-link px-2 text-muted">Canchas futbol 11</a></li></h5>
                   <h5><li class="nav-item"><a href="sobreNosotros.html" class="nav-link px-2 text-muted">Sobre nosotros</a></li></h5>
                   <h5><li class="nav-item"><a href="contactanos.html" class="nav-link px-2 text-muted">Contacto</a></li></h5>
                
