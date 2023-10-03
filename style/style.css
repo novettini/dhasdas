@@ -383,6 +383,7 @@ a {
     max-width: 60%;
     text-align: center;
     margin: auto;
+    backdrop-filter:blur(15px) ;
  }
 
 .pelota{
@@ -398,6 +399,7 @@ a {
     .pelota{
         max-width: 50%
     };
+    
 }
 @media (max-width:805px){
     .form{
@@ -411,5 +413,9 @@ a {
     }
     .pelota{
         max-width: 65%;
+    }
+    .regla{
+        max-width: 80%;
+        width: 80%;
     }
 }
