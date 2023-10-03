@@ -29,9 +29,14 @@ body {
     border-radius: 26%;
 }
 
-.fondo {
-    background-color: aliceblue;
+.tyc {
+    backdrop-filter:blur(15px);
 } 
+.tyc-titulo{
+    text-shadow: rgb(253, 253, 253) 1px 0 10px;}
+.tyc, h1, h2,p, li{
+    color: white;
+}
 
 .submit {
     margin-top: 1%;
@@ -412,7 +417,7 @@ a {
         width: 80%;
     }
     .pelota{
-        max-width: 65%;
+        max-width: 75%;
     }
     .regla{
         max-width: 80%;
