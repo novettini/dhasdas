@@ -82,11 +82,6 @@ textarea{
     margin: auto;
 }
 
-@media (max-width:805px){
-    .form{
-        width: 80%;
-    }
-}
 
 /* el logo de whatsapp */
 #whatsapp{
@@ -285,10 +280,6 @@ flex-direction: column;
     border-top-left-radius: 40px;
 }
 
-@media (max-width: 500px) {
-    .recuadro {max-width:85%} ;
-}
-
 
 .texto-titulo{
     color: rgba(27, 163, 9, 0.705);
@@ -393,3 +384,32 @@ a {
     text-align: center;
     margin: auto;
  }
+
+.pelota{
+    max-width: 40%;
+}
+
+
+
+ /* @medias */
+
+ @media (max-width: 950px) {
+    .recuadro {width:85%}; 
+    .pelota{
+        max-width: 50%
+    };
+}
+@media (max-width:805px){
+    .form{
+        width: 80%;
+    }
+    .primer-recuadro{
+        width: 80%;
+    }
+    .seccion{
+        width: 80%;
+    }
+    .pelota{
+        max-width: 65%;
+    }
+}
