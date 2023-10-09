@@ -8,14 +8,10 @@ body {
     background-image: url(images/textura-superficie-cesped.jpg);
 }
 
-.sinMargen {
+.sin-margen {
     margin-left: auto;
     margin-right: auto;
     padding: 0%;
-}
-
-.optimizacion {
-    max-width: -webkit-fill-available;
 }
 
 #usuario {
@@ -36,7 +32,7 @@ u .flecha {
 }
 
 
-.optimizacio {
+.optimizar-tamaño {
     max-width: 25%;
     max-height: 25%;
 }
@@ -44,17 +40,6 @@ u .flecha {
 .center {
     text-align: center;
     align-items: center;
-}
-
-.flex-column {
-    max-width: 15%;
-    position: sticky;
-    padding-left: 2%;
-    text-align: center;
-}
-
-.fotoUsuario {
-    max-width: 100%;
 }
 
 .carousel-caption,
@@ -159,4 +144,19 @@ option {
 #fdn {
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+/* acá van los estilos que vamos a usar con los index que no son visibles ahora  } */
+
+.foto-usuario {
+    max-width: 100%;
+}
+
+.flex-column {
+    max-width: 15%;
+    position: sticky;
+    padding-left: 2%;
+    text-align: center;
 }
