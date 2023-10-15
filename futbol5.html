@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="style/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="script/script.js"></script>
+  <link  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
   <header> <!-- ACA EMPIEZA LA BARRA -->
@@ -98,11 +100,11 @@
       <div class="container">
           <div style="display: flex; padding-top: 10%; margin-bottom: 10%; justify-content: space-around;">
             <div class="btn-group">
-              <a href="futbol5LaCosta.html"><img  class="btn btn-secondary pelota" aria-expanded="false" src="images/lacostapelota.png">
+              <a href="futbol5LaCosta.html"><img  class="btn btn-secondary pelota animado" aria-expanded="false" src="images/lacostapelota.png">
               </a>
             </button>
             </div>
-            <a href="futbol5Tigre.html"><img  class="btn btn-secondary pelota" aria-expanded="false" src="images/tigrepelota.png">
+            <a href="futbol5Tigre.html"><img  class="btn btn-secondary pelota animado" aria-expanded="false" src="images/tigrepelota.png">
               </a>
               </button>
                  <!-- <li><hr class="dropdown-divider"></li> -->
@@ -193,11 +195,16 @@
         </div>
         </div>
       
-        </div>
-      
+        </div> 
+        <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
           crossorigin="anonymous"></script>
           <script src="/script/script.js"></script>
+          <script>
+            $(document).ready(function() {
+              $(".animado").addClass("animate__animated animate__bounce");
+            });
+          </script>
         </body>
       </html>
