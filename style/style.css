@@ -1,18 +1,17 @@
 * {
-    font-family: "noni";
-    color: #515151;
+    font-family: monospace;
     text-align: center;
     box-sizing: border-box;
+    font-size: x-large;
 }
 body {
-    /* background-image: url("/images/fondo.jpg")!important; */
+    background-image: url('../images/fondo.jpg')!important;
     width: auto;
     background-color: #74A1D1;
-    /* background-attachment: fixed;
+ background-attachment: fixed; 
+ font-family: monospace;
 
-     overflow: hidden; */
       }
-
       
 .parte {
     /* max-width: 50%; */
@@ -24,6 +23,11 @@ body {
     margin: auto;
     text-align: center;
 }
+.texto-inicio{
+padding-top: 2%;
+ max-width: 60%;
+ margin: auto;
+}
 /* clases usadas en el formulario de agregar canchas */
 
 #submit {
@@ -31,10 +35,19 @@ body {
     color: white;
     border-radius: 26%;
 }
+.tamaño{
+    width: 30px;
+    height: 30px;
 
-.fondo {
-    background-color: aliceblue;
+}
+.tyc {
+    backdrop-filter:blur(15px);
 } 
+.tyc-titulo{
+    text-shadow: rgb(253, 253, 253) 1px 0 10px;}
+.tyc, h1, h2,p, li{
+    color: white;
+}
 
 .submit {
     margin-top: 1%;
@@ -85,11 +98,6 @@ textarea{
     margin: auto;
 }
 
-@media (max-width:805px){
-    .form{
-        width: 80%;
-    }
-}
 
 /* el logo de whatsapp */
 #whatsapp{
@@ -98,11 +106,12 @@ textarea{
     left:80%;
     font-size:300%;
     color: green;
+    z-index: 10;
 
 }
 .fa{
     font-size: xx-large;
-    color: blue;
+    color: white;
     }
 /* -- */
 
@@ -172,7 +181,7 @@ textarea{
 .pestañasnavbar {
     margin-bottom: 3%;
     color: rgb(255, 255, 255)!important;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-size:larger;
 
     
@@ -181,7 +190,7 @@ textarea{
 .pestañasnavbar {
     margin-bottom: 3%;
     color: rgb(255, 255, 255)!important;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-size:larger;
 
     
@@ -216,12 +225,25 @@ textarea{
 .pie-de-pagina{
 display: flex;
 flex-direction: column;
-}
-/* clases del footer */
-.pie-de-pagina{
-    background-color: aquamarine !important;
+background-color: black !important;
+
 }
 
+.redes{
+background-color:rgb(49, 47, 47, 0.308);
+margin-top: 2px;
+padding-top: 1%;
+padding-bottom: 1%;
+width: 100%;
+}
+.links_footer{
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.text-muted{
+    color: rgb(255, 255, 255, 0.253)!important;
+    font-size: xx-large;
+}
 
 /* clases de la publicidad */
 .carousel-publicidad{
@@ -288,10 +310,6 @@ flex-direction: column;
     border-top-left-radius: 40px;
 }
 
-@media (max-width: 500px) {
-    .recuadro {max-width:85%} ;
-}
-
 
 .texto-titulo{
     color: rgba(27, 163, 9, 0.705);
@@ -307,9 +325,7 @@ flex-direction: column;
 }
 
 .pelota-click {
-    margin-right: 50%;
-    margin-left: 50%;
-    border: 2px;
+      border: 2px;
     border-color: rgb(116, 139, 10);
     border-style: solid ;
     border-radius: 14px;
@@ -387,7 +403,55 @@ a {
     border: 2px solid rgba(109, 96, 96, 0.575);
     width: 45%;
     background-color: rgba(71, 71, 82, 0.13);
-   
+ }
 
 
+
+ .regla{
+    max-width: 60%;
+    text-align: center;
+    margin: auto;
+    backdrop-filter:blur(15px);
+ 
+ }
+
+.pelota{
+    max-width: 40%;
+}
+
+
+
+ /* @medias */
+
+ @media (max-width: 950px) {
+    .recuadro {width:85%}; 
+    .pelota{
+        max-width: 50%}
+    .texto-inicio{
+        max-width: 80% 
+    }
+    };
+    
+
+@media (max-width:805px){
+    .form{
+        width: 80%;
+    }
+    .primer-recuadro{
+        width: 80%;
+    }
+    .seccion{
+        width: 80%;
+    }
+    .pelota{
+        max-width: 75%;
+    }
+    .regla{
+        max-width: 80%;
+        width: 80%;
+    }
+}
+
+.animado{
+    font-size:20px
 }
