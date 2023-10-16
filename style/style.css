@@ -1,14 +1,16 @@
 * {
-    font-family: "noni";
-    color: #515151;
+    font-family: monospace;
     text-align: center;
     box-sizing: border-box;
+    font-size: x-large;
 }
 body {
     background-image: url('../images/fondo.jpg')!important;
     width: auto;
     background-color: #74A1D1;
  background-attachment: fixed; 
+ font-family: monospace;
+
       }
       
 .parte {
@@ -169,7 +171,7 @@ textarea{
 .pestañasnavbar {
     margin-bottom: 3%;
     color: rgb(255, 255, 255)!important;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-size:larger;
 
     
@@ -178,7 +180,7 @@ textarea{
 .pestañasnavbar {
     margin-bottom: 3%;
     color: rgb(255, 255, 255)!important;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     font-size:larger;
 
     
@@ -388,7 +390,8 @@ a {
     max-width: 60%;
     text-align: center;
     margin: auto;
-    backdrop-filter:blur(15px) ;
+    backdrop-filter:blur(15px);
+ 
  }
 
 .pelota{
@@ -423,4 +426,8 @@ a {
         max-width: 80%;
         width: 80%;
     }
+}
+
+.animado{
+    font-size:20px
 }
