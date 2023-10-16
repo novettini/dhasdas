@@ -23,6 +23,11 @@ body {
     margin: auto;
     text-align: center;
 }
+.texto-inicio{
+padding-top: 2%;
+ max-width: 60%;
+ margin: auto;
+}
 /* clases usadas en el formulario de agregar canchas */
 
 #submit {
@@ -418,10 +423,13 @@ a {
  @media (max-width: 950px) {
     .recuadro {width:85%}; 
     .pelota{
-        max-width: 50%
+        max-width: 50%}
+    .texto-inicio{
+        max-width: 80% 
+    }
     };
     
-}
+
 @media (max-width:805px){
     .form{
         width: 80%;
