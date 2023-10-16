@@ -101,7 +101,7 @@ textarea{
 }
 .fa{
     font-size: xx-large;
-    color: blue;
+    color: white;
     }
 /* -- */
 
@@ -215,12 +215,25 @@ textarea{
 .pie-de-pagina{
 display: flex;
 flex-direction: column;
-}
-/* clases del footer */
-.pie-de-pagina{
-    background-color: aquamarine !important;
+background-color: black !important;
+
 }
 
+.redes{
+background-color:rgb(49, 47, 47, 0.308);
+margin-top: 2px;
+padding-top: 1%;
+padding-bottom: 1%;
+width: 100%;
+}
+.links_footer{
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.text-muted{
+    color: rgb(255, 255, 255, 0.253)!important;
+    font-size: xx-large;
+}
 
 /* clases de la publicidad */
 .carousel-publicidad{
