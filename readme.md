@@ -2,7 +2,7 @@
 <picture>
  <source media="(prefers-color-scheme: dark)" srcset="YOUR-DARKMODE-IMAGE">
  <source media="(prefers-color-scheme: light)" srcset="YOUR-LIGHTMODE-IMAGE">
- <img alt="logo de la pagina" src="../images/Logo_.png">
+ <img alt="logo de la pagina" src="images\Logo_.png">
 </picture>
 
 ## Trabajo final realizado para el bootcamp, stage 1 de Generación T, Streambe.
