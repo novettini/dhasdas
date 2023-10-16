@@ -35,7 +35,11 @@ padding-top: 2%;
     color: white;
     border-radius: 26%;
 }
+.tamaño{
+    width: 30px;
+    height: 30px;
 
+}
 .tyc {
     backdrop-filter:blur(15px);
 } 
@@ -321,9 +325,7 @@ width: 100%;
 }
 
 .pelota-click {
-    margin-right: 50%;
-    margin-left: 50%;
-    border: 2px;
+      border: 2px;
     border-color: rgb(116, 139, 10);
     border-style: solid ;
     border-radius: 14px;
