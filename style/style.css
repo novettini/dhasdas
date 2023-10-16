@@ -426,25 +426,31 @@ a {
  @media (max-width: 950px) {
     .recuadro {width:85%}; 
     .pelota{
-        max-width: 50%}
+        max-width: 90%}
     .texto-inicio{
         max-width: 80% 
     }
+    .regla{
+        max-width: 80% 
+    }
+    .tipo-canchas{
+        width: 40%
+    }  
+     .form{
+        max-width: 80%;
+        width: 80%}
     };
     
 
-@media (max-width:805px){
-    .form{
-        width: 80%;
-    }
-    .primer-recuadro{
+@media (max-width: 805px){
+       .primer-recuadro{
         width: 80%;
     }
     .seccion{
         width: 80%;
     }
     .pelota{
-        max-width: 75%;
+        max-width: 90%;
     }
     .regla{
         max-width: 80%;
